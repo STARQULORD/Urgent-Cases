@@ -2911,15 +2911,15 @@ label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::
 					</li>
 				@endif
 				@elseif(Auth::user()->hasAdmin == 1)
-        <li class="lfr-nav-item nav-item" id="layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17" role="presentation" data-submenu-id="rnp_layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17_submenu">
-						<button class="button-28" role="button" onclick={window.location.href="{{ route('dashboard') }}"}>{{ Auth::user()->firstname }} {{ Auth::user()->lastname }} ‖ Admin</button>
-					</li>
-					<li class="lfr-nav-item nav-item" id="layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17" role="presentation" data-submenu-id="rnp_layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17_submenu">
+         <li class="lfr-nav-item nav-item" id="layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17" role="presentation" data-submenu-id="rnp_layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17_submenu">
 						<a aria-labelledby="layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet}_17" class="nav-link text-truncate" href="{{ URL::to('/register') }}" role="menuitem" tabindex="-1" id="yui_patched_v3_18_1_1_1675602507357_190">
 							<span class="text-truncate" data-submenu-id="rnp_layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17_submenu">
-								S'Enregister
+								Ajouter Agent/Patient
 							</span>
 						</a>
+					</li>
+        <li class="lfr-nav-item nav-item" id="layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17" role="presentation" data-submenu-id="rnp_layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17_submenu">
+						<button class="button-28" role="button" onclick={window.location.href="{{ route('dashboard') }}"}>{{ Auth::user()->firstname }} {{ Auth::user()->lastname }} ‖ Admin</button>
 					</li>
 				@else
 				<li class="lfr-nav-item nav-item" id="layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17" role="presentation" data-submenu-id="rnp_layout_portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_17_submenu">
